@@ -1,4 +1,5 @@
-uint8_t pin[8] = {23, 22, 1, 3, 17, 16, 4, 0}; // Right MSB
+// uint8_t pin[8] = {23, 22, 1, 3, 17, 16, 4, 0}; // Right MSB
+uint8_t pin[8] = {0, 4, 16, 17, 3, 1, 22, 23}; // Left MSB
 
 void setup()
 {
