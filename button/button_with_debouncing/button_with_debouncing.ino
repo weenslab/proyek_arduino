@@ -51,7 +51,7 @@ void loop()
   // Jika nilai button berubah, karena noise atau penekanan
   if (reading != last_button_state)
   {
-    // Simpan nilai milis
+    // Simpan nilai milis terbaru (reset timer debouncing)
     last_debounce_time = millis();
   }
 
