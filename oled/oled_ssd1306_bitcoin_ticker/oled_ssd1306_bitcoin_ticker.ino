@@ -16,7 +16,7 @@ Adafruit_SSD1306 oled(128, 64, &Wire, -1);
 
 // SSID dan password Wi-Fi AP
 const char ssid[] = "<your_wifi_name>";
-const char pass[] = "<yuor_wifi_password>";
+const char pass[] = "<your_wifi_password>";
 
 // Koneksi HTTP, request, dan response
 HTTPClient http;
